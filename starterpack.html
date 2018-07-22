@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="starterpack.css">
+<link rel="stylesheet" href="jquery-ui.min.css">
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src = "html2canvas.js"></script><script src="html2canvas.min.js"></script>
+<script src="canvas2image.js"></script>
+</head>
+
+<body>
+
+
+
+    
+<div id = "test"></div>
+<span id="title">starterpack creator</span>
+	<div id="canvas"></div></br>
+<input type="text" placeholder="text here..." id="newtext">
+<button id="addtext">add text</button>
+<input type="button" id="loadFileXml" value="add image" onclick="document.getElementById('imagefile').click();" />
+<input type="file" style="display:none;" id="imagefile" onchange="addImage(event)" />
+<button id="clearselected">delete selected</button>
+<button id="download">download</button>
+<button id="clear">clear all</button>
+
+	<script src="starterpack.js"></script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+#canvas {
+
+		width: 500px;
+		height: 450px;
+		margin-left: 400px;
+		border: 2px solid black;
+	}
+
+	#newtext {
+
+		margin-left: 400px;
+	}
+
+	#title {
+
+		background-color: yellow;
+		font-size: 20px;
+		margin-left: 550px;
+		
+	}
